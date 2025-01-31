@@ -7,7 +7,7 @@ This project is a software development chatbot designed to assist developers wit
 To install and set up the project, follow these steps:
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/software-dev-chatbot.git
+    git clone https://github.com/ruturaj1011/AI-ChatBot-OpenAI.git
     ```
 2. Navigate to the project directory:
     ```bash
@@ -22,10 +22,12 @@ To install and set up the project, follow these steps:
 To use the OpenAI API, you need to set up your API key:
 1. Obtain your OpenAI API key from [OpenAI](https://beta.openai.com/signup/).
 2. Create a file named config.js in the root directory of the project and add your OpenAI API key:
-``` // config.js
+```bash
+        // config.js
         module.exports = {
             OpenAIAPIKey: 'your-openai-api-key-here'
         };
+```
 
 ## Usage
 To start the chatbot, run the following command:
